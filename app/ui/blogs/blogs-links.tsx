@@ -30,7 +30,6 @@ export default function blogLinks() {
   return (
     <>
       {blogLinksArray.map((link) => {
-        
         return (
           
           <Link
@@ -46,7 +45,7 @@ export default function blogLinks() {
             <div>
               <h2 className="text-xl font-semibold text-gray-800 md:text-2xl text-left">
                 {link.name}
-              </h2>
+              </h2>  
               <div className="flex flex-row w-full gap-2">
                   <div className="flex h-[200px] w-[200px] items-center gap-2 p-4 rounded-md border border-gray-300 bg-white shadow-md">
                   </div>

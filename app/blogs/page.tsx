@@ -8,7 +8,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       </div>
         <div>
               <div className="flex h-[120px] w-screen items-center gap-2 p-4 rounded-md bg-white shadow-md">
-                  <h1 className="text-3xl font-bold">Header Title</h1>
+                  <h1 className="text-3xl font-bold">Blogs</h1>
               </div>
         <BlogNav />
         </div>
